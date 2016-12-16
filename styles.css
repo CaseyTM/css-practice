@@ -1,10 +1,10 @@
 #outside-box{
-	height: 300px;
+	height: 3000px;
 	width: 300px;
 	background-color: green;
 	text-align: center;
 	top: 20px;
-	position: relative;
+	/* position: relative; */
 	left: 20px;
 
 }
@@ -27,4 +27,5 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	border-radius: 10px;
 }

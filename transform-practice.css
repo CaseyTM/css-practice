@@ -1,0 +1,22 @@
+.row{
+	float: left;
+	display: inline-block;
+}
+.row:hover{
+transform: scale(1.5);
+transition: all 1s;
+
+}
+.squares{
+	float: left;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 2px;
+}
+.squares:hover{
+
+
+
+}

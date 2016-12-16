@@ -1,0 +1,43 @@
+.square{
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	background-color: yellow;
+/* 	transform: translate(15px,15px);
+	 scale will inflate the target by a given ratio
+	 /* only one transform per target */
+/* 	transform: scale(2); */ 
+/* 	transform: rotate(45deg); */
+/* transform: skew(45deg); */
+transition: all 2s;
+}
+
+.transform-box{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #ff0000;
+	
+	/* SET HOVER CHANGES WITH :HOVER SUBLCLASS */
+}
+
+.transform-box:hover{
+	transform: rotate(1000deg); 
+ margin-left: 300px;
+}
+
+.ease{
+	transition: all 4s ease-in;
+}
+
+.square:hover{
+	background-color: red;
+/* 	height: 400px;
+ *//* 	transform: translateX(1000px);
+/* transform: scale(10,1) translateX(200px);
+} */
+/* transform: skew(720deg); */
+border-radius: 50%;
+}
+.custom{
+	transition: all 4s cubic-bezier(1.000,0.835,0.000,0.945);
+}

@@ -1,0 +1,58 @@
+#car{
+	margin: auto;
+	background-color: green;
+	height: 200px;
+	width: 400px;
+	border-radius: 15px;
+	position: relative;
+
+
+}
+#frontwheel{
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	position: absolute;
+	border-radius: 50%;
+	left: -10px;
+	top: 129px;
+	border: 10px solid black;
+	
+
+
+
+}
+#rearwheel{width: 200px;
+	height: 200px;
+	background-color: gray;
+	position: absolute;
+	border-radius: 50%;
+	left: 250px;
+	top: 70px;
+	border: 50px solid black;
+
+}
+#window{
+	position: absolute;
+	height: 80px;
+	width: 100px;
+	background-color: gray;
+	left: 10px;
+	top: 10px;
+}
+#light{
+	height: 30px;
+	width: 30px;
+	background-color: yellow;
+	border-radius: 50%;
+	position: absolute;
+	top: 90px;
+	left: -5px;
+	border: 5px solid black;
+}
+#name{
+	position: absolute;
+	top: 25px;
+	left: 110px;
+	font-size: 30px;
+}
